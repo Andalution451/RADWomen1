@@ -1,0 +1,24 @@
+/*Get utensils and ingredients
+	Get bread
+	Get jam
+	Get peanut butter
+	Get knife
+	Get plate
+
+Prepare sandwich
+	Open bread
+	Put two slices on plate
+	Close bread
+	Open peanut butter
+	Spread on one slice using knife
+	Close peanut butter
+	Open jam
+	Spread on other slice of bread using knife
+	Close jam
+	Put two pieces of bread together
+
+Consume*/
+
+public class PBJ {
+
+}
