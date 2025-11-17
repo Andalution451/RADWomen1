@@ -37,9 +37,13 @@ public with sharing class WeekFourHomework {
         // Can you add an extra counter variable so that you can print out how many times the loop ran in total?
 
         //This loop should run 5 times
-        for (Integer i=0; i<5; i++) {
+       	Integer forCounter = 0;
+		for (Integer i=0; i<5; i++) {
+			forCounter++;
         System.debug('i is now: '+i);
         }
+
+		System.debug('The for loop ran '+forCounter+ ' times.');
 
         //Brain teaser:  Below is a loop that iterates through a list.  Can you change it to use the traditional For Loop syntax?  It should print out
         //each account name in the debug log when you're done.
