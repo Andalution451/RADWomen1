@@ -1,0 +1,9 @@
+trigger OpportunityTrigger on Opportunity (before insert, before update, after insert, after update) {
+    
+    // First, we have a simpler if/else if block separating inserts from updates 
+    // This helps trigger performance and keeps triggers with lots of handlers more readable
+    if (Trigger.isAfter) {
+             OpportunityTriggerHandler.handleAfterInsert(Trigger.new);
+    }
+    //future trigger logic blocks here
+}
